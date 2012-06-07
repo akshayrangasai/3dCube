@@ -1,0 +1,9 @@
+3dCube
+======
+
+3dcube in CSS3 and Javascript.
+
+===========================================================================
+
+This is a Cube that can be rotated using the mouse and has a snap feature for now. 
+The rotation is about the X,Y axes. Need to perfect it for the z-axis as well. Better rotation Algorithms
