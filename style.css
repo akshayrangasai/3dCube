@@ -1,0 +1,102 @@
+#container
+	{
+	-webkit-perspective: 1000;
+  -webkit-perspective-origin: 50% 200px;
+	perspective: 1000;
+  perspective-origin: 50% 200px;
+	-moz-perspective: 1000;
+  -moz-perspective-origin: 50% 200px;
+	}
+#cubecontainer
+	{
+	position:relative;
+	margin : 80px auto;
+	height : 400px;
+	width : 400px;
+  -webkit-transition: -webkit-transform 0s linear;
+  -webkit-transform-style: preserve-3d;
+  transition: transform 1s linear;
+  transform-style: preserve-3d;
+  -moz-transition: -moz-transform 1s linear;
+  -moz-transform-style: preserve-3d;
+  -moz-user-select: none; 
+  -khtml-user-select: none; 
+  -webkit-user-select: none; 
+  -o-user-select: none; 
+	}
+.cube
+	{
+	-webkit-border-radius : 30px;
+	-moz-border-radius : 30px;
+	border-radius : 30px;
+	position: absolute;
+  height: 360px;
+  width: 360px;
+  padding: 20px;
+  background-color: rgba(24, 63, 90, .8);
+   -moz-user-select: none; 
+    -khtml-user-select: none; 
+    -webkit-user-select: none; 
+    -o-user-select: none; 
+  
+  }
+.cube:hover
+	{
+	cursor:move;
+	}
+#c1
+		{
+      -webkit-transform: rotateX(90deg) translateZ(200px);
+      -moz-transform: rotateX(90deg) translateZ(200px);
+      transform: rotateX(90deg) translateZ(200px);
+    }
+
+#c2
+		{
+      -webkit-transform: translateZ(200px);
+      
+      -moz-transform: translateZ(200px);
+      transform: translateZ(200px);
+      
+    }
+
+#c3
+		{
+      -webkit-transform: rotateY(90deg) translateZ(200px);
+      -moz-transform: rotateX(90deg) translateZ(200px);
+      transform: rotateX(90deg) translateZ(200px);
+    }
+
+#c4
+		{
+      -webkit-transform: rotateY(180deg) translateZ(200px);
+      -moz-transform: rotateY(180deg) translateZ(200px);
+      transform: rotateY(180deg) translateZ(200px);
+      
+    }
+
+#c5
+		{
+      -webkit-transform: rotateY(-90deg) translateZ(200px);
+      -moz-transform: rotateY(-90deg) translateZ(200px);
+      transform: rotateY(-90deg) translateZ(200px);
+    }
+
+#c6	
+		{
+      -webkit-transform: rotateX(-90deg) translateZ(200px) rotate(180deg);
+      -moz-transform: rotateX(-90deg) translateZ(200px) rotate(180deg);
+      transform: rotateX(-90deg) translateZ(200px) rotate(180deg);
+    }
+body:hover
+		{
+		cursor:move;
+		}
+span.green
+	{
+	color : #060;
+	}
+span.red
+	{
+	color : #800;
+	}

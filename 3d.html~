@@ -1,7 +1,8 @@
 <html>
 <head>
-<script src = "./script.js"></script>
-<link rel = "stylesheet" type = "text/css" href = "./style.css">
+<script src = "./script.js">
+</script>
+
 </head>
 <body id = "bodyid">
 <div id = "container">
@@ -24,4 +25,7 @@
 	</div>
 </div>
 </body>
+<style>
+
+</style>
 </html>
